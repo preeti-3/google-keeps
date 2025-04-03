@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "06882758-b9fd-4d98-90ab-8cb82f0ec11f",
+      "name": "bdbd",
+      "password": "bdbd@123",
+      "createdAt": "2025-01-13T10:26:51.359Z"
+    },
+    {
+      "id": "cb88015c-0332-4d82-bf48-902a33b9b4bc",
+      "name": "Preeti",
+      "password": "abc@123",
+      "createdAt": "2025-01-20T07:01:43.028Z"
+    }
+  ],
+  "task": [
+    {
+      "id": "b8f70d51-b24f-420e-a7b7-f93ac3638e3d",
+      "userId": "d80cf8e2-1c2b-4c42-8ae1-e5b2232a204e",
+      "title": "Task 1",
+      "description": "This is Task 1.",
+      "createdAt": "2025-01-13T10:27:41.863Z"
+    },
+    {
+      "id": "cd57eb1c-b876-46ba-9d6b-8c8c90b2c389",
+      "userId": "d80cf8e2-1c2b-4c42-8ae1-e5b2232a204e",
+      "title": "Task 1",
+      "description": "This is Task 1.",
+      "createdAt": "2025-01-20T06:10:28.454Z"
+    },
+    {
+      "id": "2ea0694e-95dd-4926-b70a-a4d90ada5fd6",
+      "userId": "d80cf8e2-1c2b-4c42-8ae1-e5b2232a204e",
+      "title": "Task 3",
+      "description": "This is Task 1.",
+      "createdAt": "2025-01-20T06:10:34.320Z"
+    },
+    {
+      "id": "ebb00281-df5e-4eee-94c7-dc01e9f6af25",
+      "userId": "06882758-b9fd-4d98-90ab-8cb82f0ec11f",
+      "title": "Task 3",
+      "description": "This is Task 1.",
+      "createdAt": "2025-01-20T06:10:54.709Z"
+    },
+    {
+      "id": "88971f53-30cc-4748-9578-623a5431c4df",
+      "userId": "cb88015c-0332-4d82-bf48-902a33b9b4bc",
+      "title": "Preeti",
+      "description": "This is Task sjdksnfdnsdkdn snndfjsd.",
+      "createdAt": "2025-01-20T08:37:04.911Z"
+    }
+  ]
+}

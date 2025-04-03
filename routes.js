@@ -1,0 +1,15 @@
+const express = require("express")
+const { createUser, createTask, findUser, loginUser, findNotes, updatesNotesController, deleteNotesController } = require("./controller")
+const userUnauthorized = require("./middlewares/unauthorized.middleware")
+const authenticateToken = require("./middlewares/authentication.middleware")
+const router = express.Router()
+
+router.post("/signup", createUser)
+router.post("/login", loginUser)
+router.post("/task", createTask)
+router.get('/users', userUnauthorized, authenticateToken, findUser)
+router.get('/notes', authenticateToken, findNotes)
+router.put('/notes', authenticateToken, updatesNotesController)
+router.patch('/notes', authenticateToken, updatesNotesController)
+router.delete('/notes', authenticateToken, deleteNotesController)
+module.exports = router
